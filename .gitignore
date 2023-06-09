@@ -1,0 +1,37 @@
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment files
+venv/
+.env/
+
+# Ignore local development settings
+settings_local.py
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore Docker artifacts
+.dbdata/
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore package files
+*.egg-info/
+dist/
+build/
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
